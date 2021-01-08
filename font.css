@@ -1,0 +1,16 @@
+@font-face
+{
+	font-family: font1;
+	src:url(fonts/Amatic_SC/AmaticSC-Bold.ttf);
+}
+@font-face
+{
+	font-family: font2;
+	src:url(fonts/Courgette/Courgette-Regular.ttf);
+
+}
+@font-face
+{
+	font-family: font3;
+	src:url(fonts/Pacifio/Pacifio-Regular.ttf);
+}

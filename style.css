@@ -1,0 +1,163 @@
+*{
+	font-family: font2;
+	font-size: 15px;
+	margin:0;
+	padding: 0; 
+}
+
+h2{
+	font-size: 20px;
+}
+
+div#logo{
+	margin: 20px 500px;
+}
+div#logo img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding right: 0px;
+	padding-top: 0px;
+
+}
+div#logo h1{
+	font-family: font2;
+	font-size: 35px;
+	padding-top: 25px;
+}
+.clear{
+	clear: both;
+}
+
+/*----------------navibar--------------------*/
+
+div#navibar a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-family: font3;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+div#navibar a.active,
+div#navibar a:hover{
+	border-bottom: 2px solid orange;
+}
+div#navibar ul li{
+	display: inline;
+	line-height: 40px;
+	padding:0px 20px;
+}
+div#navibar{
+	background-color: sienna;
+	margin-top: 10px;
+}
+div#navibar ul{
+	padding: 0px 30px;
+}
+/*------------banner Photo--------------*/
+div#banner img{
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+}
+div#banner i{
+	position: absolute;
+	top: 43%;
+	left: 47%;
+	font-size: 50px;
+	color: sienna;
+}
+div#banner div.quote{
+	position: absolute;
+	top: 55%;
+	left: 40%;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+	font-size: 20px;
+	font-family: font2;
+}
+/*------------Offer----------------*/
+
+.offer h1, #shop h1, #special h1, #menu h1{
+	color: saddlebrown;
+	font-family: font2;
+	font-size: 30px;
+	text-align: center;
+	padding:40px 0px;
+	
+
+}
+.offer hr, div#shop hr, div#special hr, div#menu hr{
+	height: 1px;
+	width:400px;
+	border: none;
+	color: black;
+	background-color: black;
+	text-align: center;
+  	border-radius: 5px;
+  	margin:0px auto;
+}
+.offer p, #special p, #menu p{
+	padding:40px 70px;
+	text-align: center;
+}
+div.offer_grid{
+	display: grid;
+	grid-template-columns: 310px 310px 310px;
+	grid-template-rows: 140px 140px 140px;
+	padding:10px 200px;
+	/*margin: 0px 200px;*/
+	text-align: center;
+}
+div.offer_grid img{
+	/*padding-left: 30px;*/
+	text-align: center;
+}
+
+div#ourshop{
+	display: grid;
+	grid-template-columns: 200px auto;
+	grid-column-gap: 80px;
+	padding:50px 0px;
+	margin: 0px 80px 10px;
+}
+
+ div#special div#s_grid{
+ 	display: grid;
+ 	grid-template-columns: 500px 500px;
+ 	grid-column-gap: 100px;
+ 	padding:20px 0px;
+	margin: 80px;
+
+ }
+ div#m_grid{
+ 	display: grid;
+ 	grid-template-columns: 500px 300px;
+ 	grid-column-gap: 100px;
+ 	padding:20px 0px;
+	margin: 40px 150px 80px;
+	
+ }
+ div#special_abs img{
+ 	position: absolute;
+ 	right: 70px;
+ 	top:350%;
+ 	border-radius: 5px;
+ }
+
+#foot{
+	font-family: font1;
+	color: white;
+	background-color: sienna;
+	display: block;
+	line-height: 50px;
+	padding: 0px 80px;
+	
+}
+#foot_right{
+	float: right;
+}
+#foot_left{
+	text-align: left;
+}
